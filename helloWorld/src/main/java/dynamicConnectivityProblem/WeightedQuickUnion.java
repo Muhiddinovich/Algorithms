@@ -20,18 +20,18 @@ public class WeightedQuickUnion {
 		return i;
 	}
 
-	public void union(int p, int q) { // change root of p to point to root of q
-		int i = root(p);
-		int j = root(q);
-		if (i == j) {
-			return;
-		}
-		if (sz[i] < sz[j]) {
-			id[i]=id[j];
-			sz[j]+=sz[i]
-		} else {
-			id[j]=id[i];
-			sz[i]+=sz[j]
-		}
-	}
+//	public void union(int p, int q) { // change root of p to point to root of q
+//		int i = root(p);
+//		int j = root(q);
+//		if (i == j) {
+//			return;
+//		}
+//		if (sz[i] < sz[j]) {
+//			id[i]=id[j];
+//			sz[j]+=sz[i]
+//		} else {
+//			id[j]=id[i];
+//			sz[i]+=sz[j]
+//		}
+//	}
 }
